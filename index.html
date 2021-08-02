@@ -3,31 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/6d1afd3785.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Reservia</title>
 </head>
 <body>
-    <div id="bloc_page">
+    <!-- <div id="bloc_page"> -->
 
     <header>
-        <div id="titre">
-        <div id="logo">
-      <img src="images/logo/Reservia.svg" alt="logo">
+        <div class="logot">
+            <img src="images/logo/Reservia.svg" alt="logo reservia"class="logo"> 
     </div>
-<h3>MY MODIFICATION</h3>
-<p>En plein centre  village</p>
+    <!-- <nav class="nav-principal"> -->
+        <nav class="nav">
+            <ul class="menu">
+            <li><a href="#">Hébergements
+              </a></li>
+            <li><a href="#">Activités</a></li>
+            <li><a href="#">S'inscrire</a></li>
+        </ul>
+    </nav>
+</header>
+<h3>Trouver votre hébergement pour des vacances de rêves</h3>
+<p>En plein centre  ville ou en pleine nature</p>
 </div> 
-      <nav class="nav-principal">
-          <ul>
-              <li><a href="#">LOLOLOLO</a></li>
-              <li><a href="#">DSMFDSFSDM</a></li>
-              <li><a href="#">SDFDSFLKJSDF</a></li>
-          </ul>
-      </nav>
-    </header>
+     
     <div class="maps">
-    <!-- <a href="https://www.google.fr/maps/@49.053696,2.0320958,14z"></a> -->
     <i class="fas fa-map-marker-alt"></i>
     <input type="search" name="ss" id="ss" class="c-autocomplete__input sb-searchbox__input sb-destination__input" placeholder="Marseille,France" value="Marseille,France" autocomplete="off" data-component="search/destination/input-placeholder" data-sb-id="main" data-input="" aria-autocomplete="both">
     <button><a href="#">Rechercher</a></button>
@@ -59,7 +63,7 @@
     </ul>
 </nav>
 <div class="info" role="status">
-    <i class="fas fa-info-circle"></i>
+    <i class="fas fa-info"></i>
     <div class="titre-info">
     <p>Plus de 500 logements sont disponibles dans cette ville</p>
     </div>
@@ -74,7 +78,7 @@
         <div class="partie1">
             <img src="images/heber1.jpg" alt="">  
             <h6>Auberge la cannebière</h6>
-            <p>Nuit à partir de 25$</p>
+            <p>Nuit à partir de <div class="money-heberg1">25€</div></p>
             <span class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -85,8 +89,8 @@
                </div> 
                <div class="partie1">
                 <img src="images/heber2.jpg" alt="">  
-                <h6>Hotel du port</h6>
-                <p>Nuit à partir de 52$</p>
+                <h6>Hôtel du port</h6>
+                <p>Nuit à partir de 52<div class="money-heberg">€</div></p>
                 <span class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -97,8 +101,8 @@
                    </div> 
                    <div class="partie1">
                     <img src="images/heber3.jpg" alt="">  
-                    <h6>Hotel les mouettes</h6>
-                <p>Nuit à partir de 76$</p>
+                    <h6>Hôtel les mouettes</h6>
+                <p>Nuit à partir de 76<div class="money-heberg">€</div></p>
                 <span class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -111,8 +115,8 @@
                     <div class="groupe2">
                        <div class="partie1">
                         <img src="images/heber4.jpg" alt="">  
-                        <h6>Hotel de la mer</h6>
-                        <p>Nuit à partir de 46$</p>
+                        <h6>Hôtel de la mer</h6>
+                        <p>Nuit à partir de 46<div class="money-heberg">€</div></p>
                         <span class="stars">
                         <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -124,7 +128,7 @@
                            <div class="partie1">
                             <img src="images/heber5.jpg" alt="">  
                             <h6>Auberge Le Panier</h6>
-                <p>Nuit à partir de 23$</p>
+                <p>Nuit à partir de <div class="money-heberg5">23€</div></p>
                 <span class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -136,8 +140,8 @@
                                </div> 
                                <div class="partie1">
                                 <img src="images/heber6.jpg" alt="">  
-                                <h6>Hotel chez Amina</h6>
-                <p>Nuit à partir de 96$</p>
+                                <h6>Hôtel chez Amina</h6>
+                <p>Nuit à partir de 96<div class="money-heberg">€</div></p>
                 <span class="stars">
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star"></i>
@@ -153,7 +157,7 @@
 
         <aside>
             <div class="title-aside">
-            <p>Les plus populaires</p>
+            <h1>Les plus populaires</h1>
             <i class="fas fa-chart-line"></i>
         </div>
 
@@ -161,8 +165,8 @@
                 <img src="images/aside1.jpg" alt="">
            
             <div class="txt-populaire">
-            <h6>Hotel le soleil du matin</h6>
-            <p>Nuit à partir de 128$</p>
+            <h6>Hôtel le soleil du matin</h6>
+            <p>Nuit à partir de 128<div class="money-populaire1">€</div></p>
             <span class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -177,7 +181,7 @@
 
 <div class="txt-populaire">
 <h6>Au coeur de l'eau Chambre d'hotes</h6>
-<p>Nuit à partir de 71$</p>
+<p>Nuit à partir de 71<div class="money-populaire2">€</div></p>
 <span class="stars">
 <i class="fas fa-star"></i>
 <i class="fas fa-star"></i>
@@ -191,8 +195,8 @@
     <img src="images/aside3.jpg" alt="">
 
 <div class="txt-populaire">
-<h6>Hotel Tout bleu et Blanc</h6>
-<p>Nuit à partir de 68$</p>
+<h6>Hôtel Tout bleu et Blanc</h6>
+<p>Nuit à partir de 68<div class="money-populaire3">€</div></p>
 <span class="stars">
 <i class="fas fa-star"></i>
 <i class="fas fa-star"></i>
@@ -205,9 +209,6 @@
 </aside>
 
 </section>
-     
-
-
     <h2>Activités à Marseille </h2>
     <div class="activite">
         
@@ -216,11 +217,11 @@
         <p>Vieux port</p> 
        </div>
        <div class="bloc2">
-           <div class="partie1">
+           <div class="activ2">
         <img src="images/activ2.jpg" alt="">  
         <p>Fort de Pomègue</p>
            </div>  
-      <div class="partie2">
+      <div class="activ3">
         <img src="images/activ3.jpg" alt=""> 
         <p>Iles de Frioul</p> 
        </div>
@@ -230,21 +231,20 @@
         <p>Parc Nationnal des Calanques</p>   
        </div>
        <div class="bloc4">
-        <div class="partie1">
+        <div class="activ5">
         <img src="images/activ5.jpg" alt="">  
         <p>Notre-Dame-de-la-Garde</p> 
         </div>
-        <div class="partie2"> 
+        <div class="activ6"> 
         <img src="images/activ6.jpg" alt="">  
         <p>Parc Longchamp</p>
        </div>
-    </div>
-       
+      
     </div>
     </div>
 
     <footer>
-        <div class="bloc-pied">
+        <!-- <div class="bloc-pied"> -->
         <div class="Apropos">
             <p>A propos</p>
             <ul>
@@ -282,7 +282,7 @@
                 </li>
             </ul>
         </div>
-    </div>
+    <!-- </div> -->
     </footer>
 </body>
 </html>
