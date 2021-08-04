@@ -1,21 +1,21 @@
 body{
    font-family: 'Raleway', sans-serif;
-    /* margin:0px; */
 }
-
+/* ///////////        menu de navigation       ///////////*/
+header, .maps, .nav-border,section, .activite , .info{
+    margin-left:80px;
+}
+header{
+    display: flex;
+}
 .nav{
     margin-left: 400px;
 }
-
-.nav ul
-{
+.nav ul{
     list-style: none;
     margin-top: 0px;
     margin-left: 643px;
     border-top: 2px solid #0065fc;
-}
-header{
-    display: flex;
 }
 .nav a{
     margin-top:0px;
@@ -41,22 +41,17 @@ a:hover {
     line-height: 2.2;
     padding-left: 53px;
 }
-
 .logot{
 	display: flex;
 }
-.nav-principal a:hover{
-    color:#3480fd;
-}
+
 h3, p{
     margin-left: 80px;
-}
-header, .maps, .nav-border,section, .activite , .info{
-    margin: 0px 0px 0px 80px;
 }
 h2 {
     margin: 39px 0px 34px 80px;
 }
+/*/////////////border de recherche////////////////*/
 .maps{
     height: 49px;
 }
@@ -81,7 +76,6 @@ input{
     font-weight: bold;
     width: 172px;
 }
-
 button{
     background-color:#0065FC;
     color: white;
@@ -93,7 +87,6 @@ button{
     height: 46px;
     border: 0px;
     font-weight: bold;
-
 }
 button a {
     text-decoration: none;
@@ -102,7 +95,7 @@ button a {
 .fas fa-search {
     visibility: hidden;
 }
-
+/*//////////menu des filtres////////////:*/
 .nav-border ul{
     margin-bottom: 29px;
     padding-left: 0px;
@@ -150,6 +143,7 @@ button a {
 .fa-dog:before{
     margin-left: 7px;;
 }
+/*///////texte information//////////////////*/
 .info{
     display: flex;
     margin-bottom: 13px;
@@ -159,9 +153,6 @@ button a {
     margin-top: 0px;
     margin-left: 11px;
 }
-.fa-cog{
-    color:#dbe8ff;
-}
 .fa-info:before{
     color: #3c85fd;
     border-radius: 15px;
@@ -169,14 +160,12 @@ button a {
     padding: 3px 6px 3px 6px;
     font-size: 10px;
 }
-
-
 section{
     display: flex;
     margin-bottom: 53px;
 }
-#hotel
-{
+/*/////////:hébergement à Marseille//////////////:*/
+#hotel{
     padding-right: 23px;
     border-radius: 15px;
     background-color:#F2F2F2;
@@ -194,7 +183,6 @@ section{
 #hotel a{
     text-decoration: none;
 }
-
 h6{
     margin-left: 10px;
     margin-top: 4px;
@@ -211,12 +199,10 @@ h6{
     color: #c0c0c066;
 
 }
-
 .partie1 h4{
     font-size: 10px;
 
 }
-
 #hotel .partie1 {
     background-color: white;
     padding: 5px 5px 5px 5px;
@@ -238,8 +224,8 @@ h6{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
 }
-aside
-{
+/*les plus populaire//////////*/
+aside{ 
     width: 32%;
     background-color:#F2F2F2;
     border-radius: 15px;
@@ -248,11 +234,8 @@ aside
 aside .partie1 {
     border-radius: 15px;
     box-shadow: 6px 6px 6px silver;
-
-
 }
 .title-aside{
-    display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 22px;
@@ -260,79 +243,46 @@ aside .partie1 {
 .title-aside h1{
     margin-left: 37px;
     margin-top: 28px;
-
 }
-
 .fa-chart-line{
     margin-right: 47px;
 }
-.populaire1 img{
+.populaire1 img, .populaire2 img, .populaire3 img {
     height: 150px;
     width: 182px;
     border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-left: 4.5px;
-    margin-top: 4.5px;
-}
-.populaire2 img{
-    height: 150px;
-    width: 182px;
-    border-top-left-radius: 15px;
-    border-bottom-left-radius: 15px;
-    margin-left: 4.5px;
-    margin-top: 4.5px;
-}
-.populaire3 img{
-    height: 150px;  
-      width: 182px;
-    border-top-left-radius:15px;
     border-bottom-left-radius: 15px;
     margin-left: 4.5px;
     margin-top: 4.5px;
 }
 .populaire1{
-    display: flex;
-    background-color: white;
     margin-bottom: 19px;
-    /* height: 128px; */
-    width: 88%;
-    margin-left: 25px;
-    border-radius: 15px;
 }
-.money-populaire1,.money-populaire2,.money-populaire3
-{
+.money-heberg1, .money-heberg5,.money-heberg,.money-populaire1,.money-populaire2,.money-populaire3{
     position: absolute;
     color: black;
     font-weight: bolder;
     font-size: 11px;
 }
+.money-populaire1,.money-populaire2,.money-populaire3{
+    margin-top: -18px;  
+}
 .money-populaire1{
-    margin-top: -18px;
     margin-left: 105px;
 }
 .money-populaire2{
-    margin-top: -18px;
     margin-left: 99px;
 }
 .money-populaire3{
-    margin-top: -18px;
     margin-left: 101px;
 }
 .money-heberg{
-    position: absolute;
-    color: black;
-    font-weight: bolder;
-    font-size: 11px; 
     margin-left: 93px;
     margin-top: -11px;
 }
 .money-heberg1, .money-heberg5{
     margin-left: 80px;
     margin-top: -12px;
-    position: absolute;
-    color: black;
-    font-weight: bolder;
-    font-size: 11px; 
 }
 .txt-populaire p{
     line-height: 2;
@@ -352,47 +302,44 @@ aside .partie1 {
 .txt-populaire .stars{
     line-height: 5;
 }
-.populaire2{
-    display: flex;
+.populaire1, .populaire2, .populaire3{
     background-color: white;
-    margin-bottom: 19px;
-    /* height: 128px; */
     width: 88%;
     margin-left: 25px;
     border-radius: 15px;
+}
+.populaire2{
+    margin-bottom: 19px;
 }
 .populaire3{
-    display: flex;
-    background-color: white;
     margin-bottom: 30px;
-    width: 88%;
-    margin-left: 25px;
-    border-radius: 15px;
 }
 
-.groupe1{
+.title-aside, .populaire1, .populaire2, .populaire3, .groupe1, .groupe2{
     display: flex;
+}
+.groupe1{
     padding-bottom: 27px;
 }
 .groupe2{
     padding-bottom: 12px;
-    display: flex;
 }
-/*     style: activités à Marseille                   */
+/*//////////      activités à Marseille          /////////////*/
 .activite{
     display: flex;
 }
-.activite p{
-    margin-left: 18px;
-    font-size: 15px;
+.activite img, .activite p{
     margin-block-start: 0.5em;
     margin-block-end: 0em;
 }
 .activite img{
     width: 408px;
-    border-top-right-radius: .5em!important;
-    border-top-left-radius: .5em!important;
 }
+.activite p{
+    margin-left: 18px;
+    font-size: 15px;
+}
+   
 .bloc1 img,.bloc3 img{
     height: 514px;
 }
@@ -401,11 +348,7 @@ aside .partie1 {
     box-shadow: 6px 6px 6px silver;
     width: 408px;
     height: 568px;
-
 }
-/* .bloc1, .bloc2, .bloc3, .bloc3{
-    height: 569px;
-} */
 .activ2{
     height: 336px;
 }
@@ -435,7 +378,7 @@ aside .partie1 {
 .activ5 {
     height: 276px;
 }
-/*               style: footer                        */
+/* ///////          footer              ///////// */
 
 footer{
 
