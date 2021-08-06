@@ -19,6 +19,7 @@ header{
 }
 .border-top-blue{
     border-top: 2px solid #0065fc;
+    color:#0065fc !important ;
 }
 .nav a{
     margin-top:0px;
@@ -295,7 +296,7 @@ aside .partie1 {
 .txt-populaire p{
     line-height: 2;
     font-size: 11px;
-    color: #868585;
+    color:  #4b4a4a;
     margin-left: 10px;
     margin-block: auto;
 }
@@ -415,7 +416,7 @@ footer ul{
     padding-left: 0px;
     line-height: 1.5em;
     font-size: 14px;
-    color:#544f4fdb;
+    color: #4b4a4a;
 }
 /* responsive */
 @media (min-width:320px) and (max-width: 414px) {
@@ -457,9 +458,7 @@ footer ul{
         flex-direction: row;
         margin-left: 0px;
     }
-    .border-top-blue{
-        border-top: none;
-    }
+    
     .menu li{
     
         border-bottom: 2px solid silver;
