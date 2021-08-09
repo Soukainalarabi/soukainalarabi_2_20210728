@@ -52,10 +52,13 @@ a:hover {
     line-height: 2.2;
     padding-left: 53px;
 }
-h1, p, h2{
+h1, p, h3{
     margin-left: 80px;
 }
-#hotel h2 ,.title-aside h2{
+h3{
+    font-size: 1.5em;
+}
+h2{
     margin: 39px 0px 34px 40px;
 }
 
@@ -552,8 +555,8 @@ footer{
     padding-top: 18px;
     background-color:#F2F2F2;
 }
-.Apropos, .hebergement, .assistance , h2{
-    margin-left: 40px;
+.Apropos, .hebergement, .assistance , h3,h2{
+    margin-left: 36px;
     width: auto;
 }
 footer p{
