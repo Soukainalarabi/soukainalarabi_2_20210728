@@ -52,6 +52,10 @@ a:hover {
     line-height: 2.2;
     padding-left: 53px;
 }
+.inscrire a{
+    text-decoration: none;
+    color: #0065fc;
+}
 h1, p, h3{
     margin-left: 80px;
 }
