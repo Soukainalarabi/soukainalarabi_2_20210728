@@ -229,7 +229,7 @@ h6{
 }
 #hotel,#hotel .partie1,#hotel img{
     width: 100%;
-    /* object-fit: cover; */
+    object-fit: cover;
 }
 #hotel .partie1 {
     background-color: white;
@@ -629,7 +629,7 @@ aside{
 @media(max-width:1100px){
     
 }
-/* @media(max-width:754px){
+@media(max-width:754px){
     .Populaires{
     flex-direction: column;
     }
@@ -639,63 +639,5 @@ aside{
         margin-left: 24px;
     }
    
-} */
+}
 
-/* @media(max-width:375px){
-button{
-    visibility: hidden;
-}
-input{
-    width: 100%;
-}
-#hotel .partie1,.album{
-    width: 83%;
-}
-.fa-search{
-    margin-left: -14px;
-    background-color:#0065FC;
-    color: white;
-    position: absolute;
-    border-radius: 15px;
-    width: 45px;
-    height: 46px;
-}
-.fa-search:before   {
-    line-height: 3;
-    margin-left: 14px;}
-} */
-/* @media(max-width:351px){
-.populaire1, .populaire2, .populaire3, .groupe1, .groupe2 {
-    display: flex;
-    flex-direction: column;
-}
-.populaire1 img, .populaire2 img, .populaire3 img {
-    width: 97%;    
-}   
- #hotel .partie1 ,.populaire1, .populaire2, .populaire3, .groupe1, .groupe2{
-    margin-left: auto;
-    margin-right: auto;
-}
-} */
-/* @media(max-width:280px){ 
-.inscrire {
-    padding-left: 6px;
-    font-weight: bolder;
-}
-.menu li{
-    padding-left: 0px;
-}
-.nav ul{
-    display: block;
-}
-#hotel h1,h2 {
-    margin: 0px 0px 0px 10px;
-    font-size: 18px;
-}
-.fa-map-marker-alt, input {
-    visibility: hidden;
-}
-.maps {
-    margin-left: 0px;
-}
-} */
