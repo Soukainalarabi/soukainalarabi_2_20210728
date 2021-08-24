@@ -231,6 +231,10 @@ h6{
     color: black;
     text-decoration: none;
 }
+.partie1 p span {
+    color: black;
+    font-weight: bolder;
+}
 #hotel,#hotel .partie1,#hotel img{
     width: 100%;
     object-fit: cover;
@@ -279,43 +283,17 @@ aside .partie1 {
 .fa-chart-line{
     margin-right: 47px;
 }
-.populaire1 img, .populaire2 img, .populaire3 img {
+.populaire img {
     object-fit: cover;
     height: 150px;
-    width: 182px;
+    width: 44%;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     margin-left: 4.5px;
     margin-top: 4.5px;
 }
-.populaire1{
+.populaire{
     margin-bottom: 19px;
-}
-.money-heberg1, .money-heberg5,.money-heberg,.money-populaire1,.money-populaire2,.money-populaire3{
-    position: absolute;
-    color: black;
-    font-weight: bolder;
-    font-size: 11px;
-}
-.money-populaire1,.money-populaire2,.money-populaire3{
-    margin-top: -18px;  
-}
-.money-populaire1{
-    margin-left: 105px;
-}
-.money-populaire2{
-    margin-left: 99px;
-}
-.money-populaire3{
-    margin-left: 101px;
-}
-.money-heberg{
-    margin-left: 93px;
-    margin-top: -11px;
-}
-.money-heberg1, .money-heberg5{
-    margin-left: 80px;
-    margin-top: -12px;
 }
 .txt-populaire p{
     line-height: 2;
@@ -323,6 +301,10 @@ aside .partie1 {
     color:  #4b4a4a;
     margin-left: 10px;
     margin-block: auto;
+}
+.txt-populaire p span{
+    color: black;
+    font-weight: bolder;
 }
 .txt-populaire h6{
     width: 75%;
@@ -335,22 +317,19 @@ aside .partie1 {
 .txt-populaire .stars{
     line-height: 5;
 }
-.populaire1, .populaire2, .populaire3{
+.populaire{
+    display: flex;
     background-color: white;
     width: 88%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 3%;
     border-radius: 15px;
 }
-.populaire2{
-    margin-bottom: 19px;
-}
-.populaire3{
-    margin-bottom: 30px;
-}
 
-.title-aside, .populaire1, .populaire2, .populaire3, .groupe1, .groupe2{
+.title-aside, .groupe1, .groupe2{
     display: flex;
+
 }
 .groupe1{
     padding-bottom: 27px;
@@ -515,7 +494,7 @@ footer ul{
     }
     
 }
-@media(max-width:1200px){
+@media(max-width:1024px){
     aside{
         width: 99%;
         margin-top: 16px;
@@ -528,11 +507,9 @@ footer ul{
         margin-right: auto;
     
     }  
-    .populaire2,.populaire3{
-        margin-left: 15px;
-    }
-    .populaire1,.populaire2,.populaire3{
+    .populaire{
         margin-bottom: 36px;
+        margin-left: 15px;
         width: 46%;
     }
     #hebergement{
@@ -547,7 +524,7 @@ footer ul{
     .Populaires{
     flex-direction: column;
     }
-    .populaire1, .populaire2, .populaire3 {
+    .populaire{
         margin-bottom: 36px;
         width: 90%;
         margin-left: 24px;
