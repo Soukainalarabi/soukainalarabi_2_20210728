@@ -1,4 +1,4 @@
-@media (max-width: 650px) {
+@media (max-width: 700px) {
     body{
         margin: 0px;
     }
@@ -151,7 +151,7 @@
         visibility: hidden;
     }
     input{
-        width: 94%;
+        width: 75%;
         }
     #hotel .partie1,.album{
         width: 83%;
@@ -197,4 +197,11 @@
 .populaire1 img, .populaire2 img, .populaire3 img {
     width: 98px;
 }
+}
+@media(max-width:260px){
+    .populaire1, .populaire2, .populaire3 {
+        overflow: auto;
+        flex-shrink: 1;
+    }
+
 }
