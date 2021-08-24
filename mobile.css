@@ -123,18 +123,7 @@
         margin-left: auto;
         margin-right: auto;        
     }
-    .album{
-        width: 70%;
-    }
-    .bloc1 img , .bloc3 img , .activ2 img, .activ3 img, .activ5 img,.activ6 img {
-        height: 142px;  
-        width: 100%; 
-        object-fit: cover;         
-    }
-    .bloc1, .bloc3, .activ2, .activ3, .activ5, .activ6 {
-        height: 197px;
-        margin-top: 10px;
-    }
+    
     footer{
         padding-top: 18px;
         background-color:#F2F2F2;
