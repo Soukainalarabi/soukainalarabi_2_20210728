@@ -7,10 +7,6 @@ body{
     margin: auto;
 }
 /* ///////////        menu de navigation       ///////////*/
-/* header, .maps, .nav-border,section, .album , .info{
-    margin-left:80px;
-    margin-right: 80px;
-} */
 header{
     display: flex;
 }
@@ -60,9 +56,7 @@ a:hover {
     text-decoration: none;
     color: #0065fc;
 }
-/* h1, p, h3{
-    margin-left: 80px;
-} */
+
 h1{
     font-size: 23px;
 }
@@ -294,6 +288,7 @@ aside .partie1 {
 }
 .populaire{
     margin-bottom: 19px;
+    cursor: grab;
 }
 .txt-populaire p{
     line-height: 2;
@@ -387,20 +382,20 @@ aside .partie1 {
     height: 100%;
 }
 .activ-bloc.article2{
-    height: 60%;
+    height: 56%;
 }
 .activ-bloc.article3{
-    height: 30%;
+    height: 34%;
 }
 
 .activ-bloc.article4{
     height: 100%;
 }
 .activ-bloc.article5{
-    height: 30%;
+    height: 49%;
 }
 .activ-bloc.article6{
-    height: 60%;
+    height: 41%;
 }
 
 /* ///////          footer              ///////// */
@@ -416,10 +411,10 @@ footer{
     width: 29%;
     /* margin-left: 80px; */
 }
-.Apropos p ,.hebergement p, .assistance p{
+.Apropos p ,.heberg p, .assistance p{
     margin-left: 0px;
 }
-.hebergement{
+.heberg{
     width: 33%;
 }
 footer p{
@@ -475,20 +470,6 @@ footer ul{
     h3{
         margin-left: 42px;
     }
-   
-    /* .activ3{
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-    .bloc3{
-        margin-top: 52px;
-    }
-    .bloc1,.activ2{
-        margin-right: 41px;
-    }
-    .activ5{
-        margin-right: 49px;
-    } */
     .Aprpos, .hebergement, .assistance{
         width: 30%;
     }
