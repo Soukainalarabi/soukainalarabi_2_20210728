@@ -2,6 +2,10 @@
     body{
         margin: 0px;
     }
+    .container {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
     .logot{
         width: 50%;
         margin-left: 17px;
@@ -54,7 +58,8 @@
         width: auto;
     }
     .maps {
-        margin-left: 17px;
+        display: flex;
+        flex-direction: row;
     }
     h1 {
         margin-left: 17px;
@@ -64,10 +69,11 @@
     .title-aside h1 {
         margin-left: 26px;
     }
-    p, .class-border,.class-border-none{
+    .class-border,.class-border-none,.maps{
         margin-left: 17px;
     }
     p{
+        margin-left: 21px;
         font-size: 15px;
         color: #5d5a5a;
     }
@@ -107,7 +113,7 @@
         background-color:#fff;
         margin-right:0px;
     }
-    .nav-border ul ,.album, footer{
+    .nav-border ul ,.album{
         display: block;
     }
     .groupe1, .groupe2{
@@ -123,19 +129,19 @@
         margin-left: auto;
         margin-right: auto;        
     }
-    
-    footer{
-        padding-top: 18px;
-        background-color:#F2F2F2;
+    .footer-colonne{
+        flex-direction: column;
+        padding: 2%;
     }
+   
     .Apropos, .heberg, .assistance , h3,h2{
         margin-left: 36px;
-        width: auto;
+        width: 100%;
     }
     footer p{
         color: black;
         font-weight: bolder;
-    }
+    } 
     button{
         visibility: hidden;
     }
@@ -146,10 +152,9 @@
         width: 83%;
     }
     .fa-search{
-        margin-left: -14px;
         background-color:#0065FC;
         color: white;
-        position: absolute;
+        margin-left: -24px;
         border-radius: 15px;
         width: 45px;
         height: 46px;

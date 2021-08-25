@@ -402,16 +402,21 @@ aside .partie1 {
 
 footer{
     background-color:#F2F2F2;
-    display: flex;
     width: 100%;
-    justify-content: center;
 }
-
-.Apropos{
-    width: 29%;
-    /* margin-left: 80px; */
+.footer-colonne {
+    display: flex;
+    max-width: 100%;
+    width: 1440px;
+    margin: auto;
+    padding: 0 2rem;
+    box-sizing: border-box;
 }
-.Apropos p ,.heberg p, .assistance p{
+.Apropos, .heberg,.assistance{
+    width: 30%;
+    padding: 1% 1%;
+}
+/* .Apropos p ,.heberg p, .assistance p{
     margin-left: 0px;
 }
 .heberg{
@@ -419,7 +424,7 @@ footer{
 }
 footer p{
     font-weight: bolder;
-}
+} */
 footer ul{
     list-style-type: none;
     padding-left: 0px;
